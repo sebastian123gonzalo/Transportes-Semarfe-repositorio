@@ -76,21 +76,24 @@ body {
     margin: 0%;
     padding: 0%;
     list-style: none;
-}
 
-    .navigation ul li {
+    li {
         display: inline-block
-    }
-        .navigation ul li a {
+        
+        a {
             display: block;
             padding: 0.5rem 1rem;
             transition: all 0.4 linear;
             border-radius: 5px;;
-        }
 
-        .navigation ul li a:hover {
+        a:hover {
             background: rgb(121, 121, 121);
+
+            }
         }
+    }
+
+}
 
 .main {
     padding-top: 12rem;
@@ -262,7 +265,7 @@ body {
     height: 200px;
     margin: 0 auto;
     margin-top: 50px;
-    background-image: url(./images/misión\ pro.jpg);
+    background-image: url(../images/misión.jpg);
     border-radius: 50%;
     background-size: cover;
     background-position: center;
@@ -432,7 +435,7 @@ body {
     height: 100%;
     object-fit: cover;
     margin: 0 auto;
-    background-image: url(./images/transportes\ semarfe.jpg);
+    background-image: url(../images/transportes.jpg);
     background-size: cover;
     position: relative;
 }
